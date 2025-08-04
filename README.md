@@ -2,6 +2,39 @@
 
 [English](README.md) | [中文](README_zh.md)
 
+## About This Project | 关于本项目
+This project documents my learning journey and practical experiments with various model evaluation techniques, particularly focusing on Large Language Models (LLMs). It covers comprehensive evaluation methodologies from data preparation to specialized metrics for assessing model performance, hallucination detection, and robustness testing.
+
+The primary goals of this project are:
+- To establish a systematic framework for evaluating LLMs across different dimensions
+- To implement and compare various evaluation metrics and methodologies
+- To provide practical examples and code for applying these techniques to real-world models
+- To serve as a reference guide for researchers and practitioners in the field of AI
+
+这个项目是我自己学习模型评估（特别是大型语言模型评估）相关的技术所做的文档记录以及相应的实践。它涵盖了从数据准备到专门评估模型性能、幻觉检测和鲁棒性测试的全面评估方法。
+
+本项目的主要目标是：
+- 建立一个系统的框架，从不同维度评估大型语言模型
+- 实现并比较各种评估指标和方法
+- 提供将这些技术应用于实际模型的实例和代码
+- 作为AI领域研究人员和从业者的参考指南
+
+## Project Structure | 项目结构
+
+- `deepchecks`: Implementation of model evaluation using the Deepchecks library for validating model quality, data integrity, and detecting drift.
+- `deepeval`: Examples using Deepeval framework for evaluating LLMs with focus on content quality, hallucination detection, and robustness metrics.
+- `evidently`: Demonstrations of data and model monitoring with Evidently, including performance tracking, drift detection, and data quality analyses.
+- `ground_truth`: Tools and processes for establishing reliable ground truth datasets for model evaluation.
+- `metrics`: Collection of custom implementation of various evaluation metrics, including BLEU, ROUGE, BERTScore, semantic similarity measures, and RAG-specific evaluators.
+- `RAG`: Evaluation techniques specifically designed for Retrieval-Augmented Generation systems, focusing on relevance, accuracy, and retrieval quality.
+- `streamlit`: Interactive web applications built with Streamlit for visualization of model evaluation results and for creating annotation platforms.
+
+
+---
+
+`Data Preparation Phase` -> `Data Splitting & Cross-Validation` -> `Annotation` -> `Model-Fit Diagnostics` -> `Evaluation`
+
+---
 *   Data Preparation Phase
 *   Data Splitting & Cross-Validation
 *   Annotation
@@ -17,10 +50,6 @@
     *   Robustness & Adversarial Testing
     *   Model Efficiency & Scalability Testing
 *   Model Evaluation Platform
-
----
-
-`Data Preparation Phase` -> `Data Splitting & Cross-Validation` -> `Annotation` -> `Model-Fit Diagnostics` -> `Evaluation`
 
 ---
 
